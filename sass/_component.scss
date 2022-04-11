@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: sahel;
+    src: url(../font/sahel-font-v1.0.0-alpha24/Sahel.ttf);
+    font-weight: normal;
+}
+
+$main_font : sahel;
+$fs : .9rem;
+$fm : 1.2rem;
+$fh : 2rem;
+
+@mixin flex_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex_around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
